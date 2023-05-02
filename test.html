@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cristiano Ronaldo Face Drawing</title>
+  <style>
+    /* Face styles */
+    .face {
+      width: 200px;
+      height: 200px;
+      background-color: #e8cdaa;
+      border: 2px solid #000;
+      border-radius: 50%;
+      position: relative;
+      margin: 0 auto;
+    }
+    
+    /* Eye styles */
+    .eye {
+      width: 40px;
+      height: 40px;
+      background-color: #fff;
+      border: 2px solid #000;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -20px;
+      margin-left: -20px;
+    }
+    
+    .pupil {
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -10px;
+    }
+    
+    /* Eyebrow styles */
+    .eyebrow {
+      width: 80px;
+      height: 20px;
+      background-color: #000;
+      transform: rotate(-15deg);
+      position: absolute;
+      top: 40%;
+      left: 25%;
+    }
+    
+    .eyebrow.right {
+      transform: rotate(15deg);
+      left: 55%;
+    }
+    
+    /* Nose styles */
+    .nose {
+      width: 30px;
+      height: 60px;
+      background-color: #e8cdaa;
+      border: 2px solid #000;
+      border-radius: 20px;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      margin-left: -15px;
+      transform: rotate(-15deg);
+    }
+    
+    /* Mouth styles */
+    .mouth {
+      width: 60px;
+      height: 20px;
+      border-bottom: 2px solid #000;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      margin-left: -30px;
+      border-radius: 0 0 40px 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="face">
+    <div class="eye">
+      <div class="pupil"></div>
+    </div>
+    <div class="eye">
+      <div class="pupil"></div>
+    </div>
+    <div class="eyebrow"></div>
+    <div class="eyebrow right"></div>
+    <div class="nose"></div>
+    <div class="mouth"></div>
+  </div>
+</body>
+</html>
